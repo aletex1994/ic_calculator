@@ -1,3 +1,3 @@
 # Internet Computer - Motoko - React.js calculator
 
-- install dfx 
+- sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)" at least version dfx 0.9.2
