@@ -1,12 +1,11 @@
 # Internet Computer - Motoko - React.js calculator
 
-	:construction: <h3>Before start, install DFX & Node.js</h3> :construction:
-    :smile:
+	 <h3>Before start, install DFX & Node.js</h3> 
 
 
 - <code>sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)" at least version dfx 0.9.2</code>
 
-Welcome to your new ic_calculator project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+:construction: Welcome to your new ic_calculator project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
