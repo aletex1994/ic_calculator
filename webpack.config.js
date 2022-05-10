@@ -48,7 +48,7 @@ module.exports = {
   entry: {
     // The frontend.entrypoint points to the HTML file for this build, so we need
     // to replace the extension to `.js`.
-    index: path.join(__dirname, asset_entry).replace(/\.html$/, ".jsx"),
+    index: path.join(__dirname, asset_entry).replace(/\.html$/, ".js"),
   },
   devtool: isDevelopment ? "source-map" : false,
   optimization: {
@@ -75,15 +75,18 @@ module.exports = {
   // webpack configuration. For example, if you are using React
   // modules and CSS as described in the "Adding a stylesheet"
   // tutorial, uncomment the following lines:
-   module: {
-   rules: [
-    { test: /\.(js|ts)x?$/,
-    loader: "ts-loader"
-    },
-    { test: /\.css$/,
-    use: ['style-loader','css-loader']
-    },
-      { test: /\.(png|jp(e*)g|svg|gif)$/,
+  module: {
+    rules: [
+      {
+        test: /\.(js|ts)x?$/,
+        loader: "ts-loader"
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [
           {
             loader: 'file-loader',
@@ -115,7 +118,7 @@ module.exports = {
         ],
       },
     ],
-   },
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, asset_entry),
