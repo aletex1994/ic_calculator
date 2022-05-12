@@ -1,3 +1,5 @@
+<img src="https://github.com/ORIGYN-SA/origyn_starter/blob/main/src/origyn_starter_assets/assets/screenshot.png" />
+
 # Internet Computer - Motoko - React.js calculator
 
 :construction:  :construction:  :construction: Before start, install DFX & Node.js :construction:  :construction: :construction: 
