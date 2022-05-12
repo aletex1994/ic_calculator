@@ -1,3 +1,6 @@
 service : {
-  hello: () -> (text) query;
+  getCopyrights: () -> (text) query;
+  getName: () -> (text) query;
+  greetingsFromIc: () -> (text) query;
+  setName: (text) -> (text);
 }
