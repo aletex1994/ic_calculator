@@ -1,4 +1,4 @@
-<img src="https://github.com/ORIGYN-SA/origyn_starter/blob/main/src/origyn_starter_assets/assets/screenshot.png" />
+<img src="https://github.com/aletex1994/ic_calculator/blob/main/src/ic_calculator_assets/assets/screenshot.png"/>
 
 # Internet Computer - Motoko - React.js calculator
 
