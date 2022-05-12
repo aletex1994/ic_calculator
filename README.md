@@ -1,6 +1,6 @@
 # Internet Computer - Motoko - React.js calculator
 
-:construction:  :construction: Before start, install DFX & Node.js :construction:  :construction: 
+:construction:  :construction:  :construction: Before start, install DFX & Node.js :construction:  :construction: :construction: 
 
 
 - <code>sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)" at least version dfx 0.9.2</code>
