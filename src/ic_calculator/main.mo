@@ -57,10 +57,6 @@ actor {
      public func getElemOfTrie(_key : Principal) : async ?(Nat,Int) {
        return whitelist_trie.get(_key);
     };
-    public func iterWhitelist(): async Text{
-         Iter.toArray(whitelist_trie.entries());
-        
-    };
    
 };
 
