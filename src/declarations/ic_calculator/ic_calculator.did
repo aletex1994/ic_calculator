@@ -1,6 +1,20 @@
 service : {
+  addToBuffer: (nat) -> (text);
+  addToTrieElem: (principal, record {
+                               nat;
+                               int;
+                             }) -> (text);
+  bufferToArray: () -> (vec int);
   getCopyrights: () -> (text) query;
+  getElemOfTrie: (principal) -> (opt record {
+                                       nat;
+                                       int;
+                                     });
   getName: () -> (text) query;
+  getValueBack: () -> (nat) query;
   greetingsFromIc: () -> (text) query;
+  removeLastBufferElem: () -> (opt int);
+  seeBufferSize: () -> (nat);
   setName: (text) -> (text);
+  sizeOfTrie: () -> (nat);
 }
